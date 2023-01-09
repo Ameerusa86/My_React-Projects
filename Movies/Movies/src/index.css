@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hoverLink {
+  @apply hover:border-b-2 border-rose-800;
+  @apply hover:font-bold;
+}
