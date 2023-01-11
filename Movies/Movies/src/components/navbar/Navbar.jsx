@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className=" bg-gray-700">
-      <div className="w-full md:w-auto container mx-auto py-4 flex justify-between items-center">
+      <div className="py-4 flex justify-between items-center">
         <Link to="/home">
-          <h1 className="sm:text-sm md:text-lg lg:text-2xl font-bold text-gray-50 uppercase">
+          <h1 className="ml-4 sm:text-sm md:text-lg lg:text-2xl font-bold text-gray-50 uppercase">
             Cinema World
           </h1>
         </Link>
@@ -39,8 +39,8 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:flex items-center space-x-2 bg-white py-1 px-2 rounded-full">
-          <span>
+        <div className="mr-4 sm:flex items-center space-x-2 bg-white py-1 px-2 rounded-full">
+          <span className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 text-gray-600 cursor-pointer"
@@ -57,7 +57,7 @@ const Navbar = () => {
             </svg>
           </span>
           <input
-            className="right-0 outline-none"
+            className="mr-4 right-0 outline-none w-min"
             type="text"
             placeholder="Search"
           />
