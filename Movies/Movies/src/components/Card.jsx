@@ -12,7 +12,10 @@ const Card = ({ title, img, release_date, overview, rating, name }) => {
           </div>
           <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden rounded-lg">
             <div className="m-4 my-20 text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24">
-              <h1 className="text-2xl font-bold">{title}</h1>
+              <h1 className="text-2xl font-bold">
+                {title}
+                {name}
+              </h1>
 
               <p className="text-xs">{overview}</p>
               <div className="m-10">
