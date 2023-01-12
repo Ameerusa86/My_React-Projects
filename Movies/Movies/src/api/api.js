@@ -8,6 +8,7 @@ const API_URL = {
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`,
   IMG_Original: "https://image.tmdb.org/t/p/original/",
   IMG_W500: "https://image.tmdb.org/t/p/w500/",
+  requestTVShows: `https://api.themoviedb.org/3/tv/popular?api_key=${API_KEY}&language=en-US`,
 };
 
 export default API_URL;
