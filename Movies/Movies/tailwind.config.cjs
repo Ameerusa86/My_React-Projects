@@ -24,7 +24,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [Myclass],
+  plugins: [require("tailwind-scrollbar-hide"), [Myclass]],
 };
-
-//  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
