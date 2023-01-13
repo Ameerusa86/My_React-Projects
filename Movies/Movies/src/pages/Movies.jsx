@@ -23,7 +23,7 @@ const Movies = () => {
           <Card
             key={movie.id}
             title={movie.title}
-            img={API_URL.IMG_Original + movie?.poster_path}
+            img={API_URL.IMG_Original + movie.poster_path}
             release_date={`Release Date: ${movie.release_date}`}
             overview={movie.overview}
             rating={movie.vote_average}
