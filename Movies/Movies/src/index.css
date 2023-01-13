@@ -6,3 +6,7 @@
   @apply hover:border-b-2 border-rose-800;
   @apply hover:font-bold;
 }
+
+body {
+  background-color: black;
+}

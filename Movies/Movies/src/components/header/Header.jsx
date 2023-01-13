@@ -16,10 +16,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="container-xl justify-center mt-4 bg-slate-400 h-[800px] rounded-2xl overflow-hidden ml-auto mr-auto">
+      <div className="max-w-[1860px] h-[800px] w-full bg-gray-600 m-auto mt-4 rounded-2xl overflow-hidden  relative">
         <img
-          className="w-full h-full object-cover"
-          src={API_URL.IMG_Original + movie?.poster_path}
+          className=" w-full h-full bg-cover "
+          src={API_URL.IMG_Original + movie?.backdrop_path}
         />
       </div>
     </>
